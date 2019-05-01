@@ -1,6 +1,7 @@
 Class User.HelloWord Extends %Persistent
 {	
-	Property property1 As %String;
+	Property changed As %String;
+
 
 Storage Default
 {
@@ -10,6 +11,9 @@ Storage Default
 </Value>
 <Value name="2">
 <Value>property1</Value>
+</Value>
+<Value name="3">
+<Value>changed</Value>
 </Value>
 </Data>
 <DataLocation>^User.HelloWordD</DataLocation>
